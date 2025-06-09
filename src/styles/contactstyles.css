@@ -1,0 +1,37 @@
+.contact{
+    padding-left: 20px;
+}
+
+.ctitle{
+    color: var(--blue);
+}
+
+.social{
+    display: flex;
+    flex-direction:column;
+    gap: 1.6rem;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+a:hover{
+    color: var(--blue);
+}
+
+.icon{
+    padding-right: 10px;
+    align-items: end;
+    font-size: 18px;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+}

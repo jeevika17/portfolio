@@ -1,0 +1,20 @@
+footer{
+    display: flex;
+    gap: 1.8rem;
+    background-color: black;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    padding-left: 48%;
+    margin-top: auto;
+    margin-bottom: 0px;
+    border-top: 1px solid var(--grey) ;
+}
+
+.made-by , .author{
+    font-size: 0.9rem;
+}
+
+.author{
+    color: var(--blue);
+    font-weight: bold;
+}
