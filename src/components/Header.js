@@ -7,25 +7,21 @@ import Contact from './Contact.js';
 import '../styles/headerstyles.css';
 
 const Header = () => {
+    const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
-    <div>
-      <nav>
-         <Link to = "/" className='fas'>Home</Link> 
-            <Link to = "/aboutpg" className='fas'>About</Link> 
-            <Link to = "/projectspg" className='fas'>Projects</Link> 
-           <Link to = "/contactpg" className='fas'>Contact</Link> 
-        
-      </nav>
-      <Routes>
-        <Route path = "/" element= {<> <Home/> <About/><Projects /><Contact/></>} />
-        <Route path = "/aboutpg" element= {<><About/><Projects /><Contact/></>} />
-        <Route path = "/projectspg" element= {<><Projects/><Contact/></>} />
-        <Route path = "/contactpg" element= {<><Contact/></>} />
-      </Routes>
-      
+    <nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-    </div>
-  )
-}
+  );
+};
 
 export default Header;

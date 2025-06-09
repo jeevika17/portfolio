@@ -2,14 +2,17 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import { BrowserRouter } from 'react-router-dom';
+import MainPage from './components/MainPage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-function App({children}) {
+function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio">
     <div className="App">
       <Header></Header>
-      <div>{children}</div>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+      </Routes>
       <Footer></Footer>
     </div>
     </BrowserRouter>
