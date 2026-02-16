@@ -7,7 +7,7 @@ const About = () => {
         <div>
           <div>
       <h3 className='atitle'>Education :</h3>
-      <p className='askills'>I'm currently pursuing a B.Tech in Information Technology, with a GPA of 8.00/10.00, set to graduate in May 2026.
+      <p className='askills'>I'm currently pursuing a B.Tech in Information Technology, with a GPA of 8.2/10, set to graduate in May 2026.
         </p>
         </div>
         <div>
@@ -16,6 +16,7 @@ const About = () => {
         <li>Full stack development</li>
         <li>AI and Machine Learning</li>
         <li>Cloud and Devops</li>
+        
       </ul>
       </div>
       <h3 className='atitle'>Activities :</h3>
@@ -31,6 +32,12 @@ const About = () => {
           </div>
           <div className='container'><p className='ahcontent'>AWS Deepracer</p>
             <p className='acontent'>Reached the semi-finals in an autonomous vehicle racing competition, showcasing my skills in AI and machine learning.</p>
+          </div>
+          <div className='container'><p className='ahcontent'>SIH Thiruvizha'24</p>
+            <p className='acontent'>Participated in a 24-hour multi-level hackathon where our team built a solution for a real-world problem under tight deadlines. Contributed to ideation, development, and final presentation of the prototype.</p>
+          </div>
+          <div className='container'><p className='ahcontent'>PyExpo'23</p>
+            <p className='acontent'>Participated in a Python-focused technical event, engaging in coding challenges and hands-on sessions to enhance problem-solving and development skills.</p>
           </div>
         </div>
         </div>

@@ -11,10 +11,12 @@ const Home = () => {
       <p>Hi, this is  <span className='home-span'>Jeevika S</span> </p>
       <p className='typingtext'>I'm a <span className='home-span'>Software Developer</span></p>
       </div>
-      <div className='home-img'>
-        <img src={image1} alt='profile' />
-      </div>
-      
+{/*
+  <div className='home-img'>
+    <img src={image1} alt='profile' />
+  </div>
+*/}
+
     </div>
     </section>
 

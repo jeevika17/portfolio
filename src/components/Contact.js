@@ -7,7 +7,7 @@ const Contact = () => {
       <h1 className='ctitle'>Contact for any queries</h1>
       <div className='query'>
       <p>Email address:  <span> jeevika1704ss@gmail.com</span></p>
-      <p>Phone Number :  <span> +91 9344394047</span></p>
+      <p>Phone Number :  <span> xxxx</span></p>
       <hr/>
       </div>
       <h1 className='ctitle'>Social accounts</h1>

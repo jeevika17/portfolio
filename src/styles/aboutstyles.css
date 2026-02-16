@@ -60,9 +60,9 @@
 .activity{
     display: flex;
     flex-direction: row;
-    gap: 1.6rem;
-    flex-wrap: nowrap;
-    padding: 10px;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 20px;
     justify-content: center;
 }
 

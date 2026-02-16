@@ -18,9 +18,12 @@ const ProjectCard = ({title,description,image,link}) => {
 
 const Projects = () => {
   const projectData = [
+    {title:'Gemini Clone' , description: 'A full stack web application which is a clone of Gemini AI by Google' , image: 'https://www.gstatic.com/ai/gemini/images/gemini-2-pro.png' , link: 'https://jeevika17.github.io/gemini-clone/'},
     {title: 'To Do List' , description: 'This is a simple web page which manages the task' , image: todoimage , link: 'https://jeevika17.github.io/To-DoList/'},
     {title: 'CAD' , description: 'A computer aided ML model which detects the abnormality in the scan images of kidney' , image: cadimage , link: 'https://github.com/jeevika17/MedicalImageDiagnosis_kidney'},
-    {title: 'PishGuardAI' , description: 'Predicts the possibility of phishing attack of a webpage by its url' , image: pishguardAIimage , link: 'https://github.com/jeevika17/PishGuardAI-sample'}
+    {title: 'PishGuardAI' , description: 'Predicts the possibility of phishing attack of a webpage by its url' , image: pishguardAIimage , link: 'https://github.com/jeevika17/PishGuardAI-sample'},
+    {title: 'Taskify' , description: 'A task management web application built using MERN stack' , image: 'https://via.placeholder.com/300x200.png?text=Taskify+Image' , link: 'https://github.com/jeevika17/Taskify'},
+    {title: 'URL shortner', description: 'A web application that shortens long URLs into more manageable links', image: 'https://via.placeholder.com/300x200.png?text=URL+Shortener+Image', link: 'https://github.com/jeevika17/urlshortner'}
   ];
 
   return(
